@@ -1,5 +1,7 @@
 # Swarming Toolpath Generator
 
+*Code for the paper ["Swarm-based trajectory generation and optimization for stress-aligned 3d printing"](https://arxiv.org/pdf/2404.10686)*
+
 The main code is
 
     particle_traj_opt_casadi_QP_bounds.py
@@ -20,7 +22,7 @@ If changing of part, the starting locations of agents should be adapted. They ar
 The current version only runs in 2D cases. However, the FEM and mesh are 3D.
 The code will consider the stress obtained on the plane Y=1 and project it on this X,Z plane. It allows particles only to move in the X,Z plane with Y=1.
 
-Since the plan was to extend it to 3D, all code lines that are a 2D adaptation are marked with a comment saying '2D version'. They can easily be found by searchin in the text.
+Since the plan is to extend it to 3D, all code lines that are a 2D adaptation are marked with a comment saying '2D version'. They can easily be found by searching in the text.
 
 ### Algorithm details
 All mathematical details of functions can be found in the paper.
