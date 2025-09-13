@@ -1,5 +1,7 @@
 # Swarming Toolpath Generator
 
+<img src="images/img1.png" width="300"> <img src="images/img2.png" width="300"> <img src="images/img3.png" width="300">
+
 *Code for the paper ["Swarm-based trajectory generation and optimization for stress-aligned 3d printing"](https://arxiv.org/pdf/2404.10686)*
 
 The main code is
@@ -48,3 +50,4 @@ The following functions can be activated or deactivated at the bottom of the cod
 - video creation
 - stress alignment score
 - computing and saving line distances (which can be plotted by a dedicated code, see open hole results folder)
+
