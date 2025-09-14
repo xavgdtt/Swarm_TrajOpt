@@ -6,7 +6,7 @@
 
 A novel swarm-based approach for generating optimized stress-aligned trajectories for 3D printing applications, achieving **115× faster computation** than existing methods while improving mechanical properties by **~10%**.
 
-<img src="images/img1.png" width="200"> <img src="images/img2.png" width="200"> <img src="images/img3.png" width="200">
+![animation](images/animation.gif)
 
 ## 🚀 Key Features
 
@@ -68,6 +68,8 @@ python particle_traj_opt_casadi_QP_bounds.py
 
 ### Tuning Guide
 
+<img src="images/img2.png" width="200"> <img src="images/img1.png" width="200"> <img src="images/img3.png" width="200">
+
 - **For uniform lines**: Set `K_opt = 0.5`
 - **For maximum stress alignment**: Set `K_opt = 50`
 - **Recommended balance**: Use `K_opt = 5`
@@ -102,6 +104,8 @@ Toggle features at the bottom of the main script:
 | Swarm-based (K=0.5) | 0.198s | 0.981 | High |
 
 ### Experimental Results
+
+<img src="images/global.png" width="300"> <img src="images/swarm.png" width="300">
 
 Tested on open-hole tensile specimens (ASTM D5766):
 - **10% improvement** in specific modulus
@@ -203,4 +207,5 @@ This work is licensed under a
 - [Paper on arXiv](https://arxiv.org/pdf/2404.10686)
 - [ETH Zurich Automatic Control Laboratory](https://control.ee.ethz.ch/)
 - [CASADI Optimization Framework](https://web.casadi.org/)
+
 
