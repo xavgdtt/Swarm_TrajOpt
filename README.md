@@ -1,7 +1,7 @@
 # Swarm-Based Trajectory Optimization for Stress-Aligned 3D Printing
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv:2404.10686-red.svg)](https://arxiv.org/pdf/2404.10686)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 [![Python](https://img.shields.io/badge/Python-3.7+-green.svg)](https://www.python.org/)
 
 A novel swarm-based approach for generating optimized stress-aligned trajectories for 3D printing applications, achieving **115× faster computation** than existing methods while improving mechanical properties by **~10%**.
@@ -186,7 +186,15 @@ If you use this work in your research, please cite our paper:
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
 
 ---
 
@@ -195,3 +203,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Paper on arXiv](https://arxiv.org/pdf/2404.10686)
 - [ETH Zurich Automatic Control Laboratory](https://control.ee.ethz.ch/)
 - [CASADI Optimization Framework](https://web.casadi.org/)
+
